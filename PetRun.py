@@ -4,7 +4,8 @@ from Pet import*
 class Run:
 #Create main function
     def main():
-# Create an object of the Pet class
-# Prompt the user to enter pet details
-# Set the attributes of the pet object
-# Display the pet's details
+#Create a variable for the pet class
+        petinfo = Pet()
+#Ask the user to input pet details
+#Set input details to class
+#Print pet details
