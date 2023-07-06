@@ -1,5 +1,5 @@
 #Import main program
-from Pet import*
+from PetRecorder import*
 #Create a class for Run
 class Run:
 #Create main function
@@ -8,9 +8,9 @@ class Run:
         petinfo = Pet()
 
 #Ask the user to input pet details
-        name = input("Enter the name of your pet: ")
-        animal_type = input("Enter the type of your pet (e.g., Dog, Cat, Bird): ")
-        age = int(input("Enter the age of your pet: "))
+        name = input("What is the name of your pet?: ")
+        animal_type = input("What kind of animal is your pet?: ")
+        age = int(input("How old is your pet: "))
 
 #Set input details to class
         petinfo.set_name(name)
@@ -24,3 +24,5 @@ class Run:
         print("Age:", petinfo.get_age())
         
 #Start the function
+    if __name__ == '__main__':
+        main()
