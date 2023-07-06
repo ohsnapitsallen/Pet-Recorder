@@ -1,4 +1,5 @@
 #Import main program
+from Pet import*
 #Create a program for Run
 #Create main function
 # Create an object of the Pet class
